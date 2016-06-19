@@ -5,8 +5,8 @@ class Awsm < Formula
   sha256 ''
   version '0.0.1'
 
- depends_on 'fzf' => :required
- depends_on 'awscli' => :required
+ depends_on 'fzf'
+ depends_on 'awscli'
 
   def install
     bin.install 'bin/awsm'
