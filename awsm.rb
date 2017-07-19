@@ -3,7 +3,7 @@ class Awsm < Formula
   homepage ''
   url 'https://github.com/awsm/awsm.git'
   sha256 ''
-  version '0.0.1'
+  version '0.0.2'
 
  depends_on 'fzf'
  depends_on 'awscli'
